@@ -5,11 +5,11 @@ class Laptop
     end
 
     def brand
-        @brand
+        @brand.to_s
     end
 
     def model
-        @model
+        @model.to_s
     end
 end
 
